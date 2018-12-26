@@ -79,6 +79,11 @@ nav {
     box-shadow: 0 15px 20px -12px black;
 }
 
+.img_projects:hover {
+    border: 1px solid red;
+    color: red;
+}
+
 button {
     height: 30px;
     background-color: dodgerblue;
