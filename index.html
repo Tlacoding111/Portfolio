@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tim La's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="grid.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
@@ -14,22 +15,42 @@
             <ul>
                 <li><a href="#top">Home</a></li>
                 <li><a href="about.html" target="_blank">About</a></li>
-                <li><a href="https://tlacoding111.github.io/techdegreeProjectOne/" target="_blank">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="https://tlacoding111.github.io/techdegreeProjectOne/" target="_blank">Experience</a></li>
                 <li><a href="https://tlacoding111.github.io/Techdegree-ProjectTwo/" target="_blank">Resume</a></li>
             </ul>
         </nav>
         <p class="description">This will have a short title description - "Welcome to My Website"</p>
-        <p id="note">Only four colors: black, red, whitesmoke, dodgerblue</p>
+        <p id="note">Only four colors: <strong>black</strong>, red, whitesmoke, dodgerblue</p>
+        <!-- <a href=“mailto:tlamarketing111@gmail.com”>Email</a> -->
     </header>
 
     <main>
-        <div>
-            <img src="images/projectOne.png" class="projects">
+        <!-- <div id="projects">
+            <div class="border_project">
+                <img src="images/projectOne.png" class="img_projects">
+                <button>First Project</button>
+            </div>
+        </div> -->
+
+        <div class="grid">
+            <div class="item">
+                <div class="border_project">
+                    <img src="images/projectOne.png" class="img_projects">
+                    <button>First Project</button>
+                </div>
+            </div>
+            <div class="item">Two</div>
+            <div class="item">Three</div>
         </div>
     </main>
 
     <footer>
-
+        <nav>
+            <li><a href="#top">Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </nav>
     </footer>
 </body>
     <script src="main.js"></script>
