@@ -7,6 +7,7 @@ h1 {
     color: whitesmoke;
     background: black;
     font-family: cursive;
+    text-align: center;
 }
 
 header {
@@ -30,6 +31,13 @@ header {
     margin-top: 25px;
 }
 
+iframe {
+    margin: auto;
+    width: 50%;
+    border: 3px solid whitesmoke;
+    padding: 5px;
+    display: block;
+}
 
 /*-----------Layout--------*/
 
@@ -91,7 +99,12 @@ button a:link {
 } */
 
 
-/*-----------Interesting--------*/
+/*-----------About--------*/
+
+/* .about {
+    padding: 100px;
+    background: gray;
+} */
 
 
 /*-----------Footer--------*/
