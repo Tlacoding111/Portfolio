@@ -1,5 +1,5 @@
 .grid {
-    max-width: 950px;
+    max-width: 80%;
     display: grid;
-    grid-template-columns: auto auto 300px;
+    grid-template-columns: auto auto auto;
 }
