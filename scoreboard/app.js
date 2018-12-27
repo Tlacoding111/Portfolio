@@ -20,6 +20,7 @@ const players = [
     id: 4
   }
 ];
+<h1></h1>
 
 const Header = (props) => {
     return (
