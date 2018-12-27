@@ -20,7 +20,6 @@ const players = [
     id: 4
   }
 ];
-<h1></h1>
 
 const Header = (props) => {
     return (
@@ -49,24 +48,24 @@ class Counter extends React.Component {
         score: 0
     };
 
-    incrementScore() {
-        this.setState({
-            score: this.state.score + 1
-        });
+    incrementScore = () => {
+        this.setState( prevState => ({
+            score: prevState.score + 1
+        }));
     }
 
-    decrementScore() {
-        this.setState({
-            score: this.state.score - 1
-        });
+    decrementScore = () => {
+        this.setState( prevState => ({
+            score: prevState.score - 1
+        }));
     }
 
     render () {
         return (
             <div className="counter">
-                <button className="counter-action decremenet" onClick={this.decrementScore.bind(this)}> - </button>
+                <button className="counter-action decremenet" onClick={this.decrementScore}> - </button>
                 <span className="counter-score">{this.state.score}</span>
-                <button className="counter-action incremenet" onClick={this.incrementScore.bind(this)}> + </button>
+                <button className="counter-action incremenet" onClick={this.incrementScore}> + </button>
             </div>
         );
     }
