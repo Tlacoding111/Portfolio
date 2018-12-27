@@ -12,8 +12,8 @@ header {
   text-align: center;
   display: flex;
   align-items: center;
-  background-color: #8063FA;
-  border-bottom: solid 2px #D4CAFF;
+  background-color: dodgerblue;
+  border-bottom: solid 2px dodgerblue;
 }
 
 header h1 {
@@ -27,7 +27,7 @@ header h1 {
 
 form {
   display: flex;
-  background-color: #8063FA;
+  background-color: dodgerblue;
 }
 
 input[type=text] {
@@ -36,7 +36,7 @@ input[type=text] {
   margin: 15px 10px 15px 15px;
   padding: 10px;
   border-radius: 5px;
-  background-color: #5B45B9;
+  background-color: dodgerblue;
   border-style: none;
   text-shadow: none;
   text-transform: uppercase;
@@ -102,7 +102,7 @@ svg {
   background: #fff;
   width: 700px;
   margin: 70px auto;
-  box-shadow: 0 2px 0 rgb(133, 104, 250);
+  box-shadow: 0 2px 0 dodgerblue;
   border-radius: 6px;
   overflow: hidden;
 }

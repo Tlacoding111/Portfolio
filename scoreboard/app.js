@@ -62,12 +62,16 @@ class App extends React.Component {
                 id: 2
               },
               {
+                  name: "",
+                  id: 3
+              },
+              {
                 name: "Ashley",
-                id: 3
+                id: 4
               },
               {
                 name: "James",
-                id: 4
+                id: 5
               }
         ]
     };
@@ -85,7 +89,7 @@ class App extends React.Component {
             <div className="scoreboard">
                 <Header 
                     title="Scoreboard" 
-                    totalPlayers={this.state.players.length} 
+                    totalPlayers={this.state.players.length - 1} 
                 />
     
                 {/* Players list */}
