@@ -106,6 +106,15 @@ button a:link {
 
 /*-----------About--------*/
 
+.about p {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blue {
+    color: dodgerblue;
+}
+
 /*-----------Social Links--------*/
 
 h3 {
