@@ -46,6 +46,21 @@ iframe {
     margin-top: 20px;
 }
 
+/*-----------Nav--------*/
+
+header a:visited {
+    color: white;
+    background: black;
+}
+
+header a:link {
+    text-decoration-line: none;
+}
+
+header a:hover {
+    color: dodgerblue;
+}
+
 /*-----------Layout--------*/
 
 .grid {
