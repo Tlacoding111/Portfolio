@@ -1,22 +1,3 @@
-// let myChart = document.getElementById("myChart").getContext("2d");
-
-// let massPopChart = new myChart(myChart, {
-//     type: "bar",
-//     data: {
-//         labels: ["Washington DC", "Maryland", "Virginia"],
-//         datasets: [{
-//             label: "Population",
-//             data: [
-//                 100000,
-//                 200000,
-//                 300000
-//             ]
-//         }]
-//     },
-//     options: {}
-// });
-
-
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
@@ -54,3 +35,4 @@ var myChart = new Chart(ctx, {
         }
     }
 });
+
