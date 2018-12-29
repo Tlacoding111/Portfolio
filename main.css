@@ -138,9 +138,12 @@ button a:link {
 /*-----------About--------*/
 
 .about p,
-.business {
+.business h4,
+.business h5,
+.business p {
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
 }
 
 .blue {
@@ -155,13 +158,22 @@ button a:link {
 /*-----------Business Development-------*/
 
 .business {
-    color: black;
+    text-align: center;
 }
 
-/*-----------Social Links--------*/
+.business h4 {
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+/*-----------Contact--------*/
 
 h3 {
     text-align: center;
+}
+
+.connect {
+    margin-left: 44%;
 }
 
 /*-----------Footer--------*/
