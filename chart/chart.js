@@ -21,10 +21,10 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Washington DC", "Maryland", "Virginia", "Miami", "California", "New York"],
+        labels: ["Washington DC", "Maryland", "New York", "Florida", "California", "Texas"],
         datasets: [{
             label: '# of People',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [702455, 6042718, 19542209, 21299325, 39557045, 28701845],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
