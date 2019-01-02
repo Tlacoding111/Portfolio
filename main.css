@@ -1,5 +1,5 @@
 * {
-    background: white;
+    /* background: white; */
     box-sizing: border-box;
 }
 
@@ -74,7 +74,7 @@ header a:hover {
     color: whitesmoke;
     text-shadow: 0 2px 0 rgba(110,133,156,0.18);
     padding: 0.85em;
-    /* background: dodgerblue; */
+    background: white;
     /* border: solid 1px rgba(0, 128, 255, 0.15); */
     border-radius: 0.3em; 
 }
@@ -83,7 +83,7 @@ header a:hover {
     color: whitesmoke;
     text-shadow: 0 2px 0 rgba(110,133,156,0.18);
     padding: 0.85em;
-    /* background: dodgerblue;  */
+    background: white; 
     border: solid 1px rgba(0, 128, 255, 0.15);
     border-radius: 0.3em; 
 }
@@ -130,6 +130,26 @@ button a:visited {
 button a:link {
     list-style-type: none;
 } */
+
+/*-----------Slider--------*/
+
+.container h3,
+.container p,
+.slideButton a:visited {
+    text-align: center;
+    color: blue;
+}
+
+.slideButton {
+    width: 100%;
+    font-size: 18px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.slideButton a:link {
+    text-decoration: none;
+}
 
 /*-----------About--------*/
 
