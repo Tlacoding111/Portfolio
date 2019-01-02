@@ -111,8 +111,9 @@ nav {
 }
 
 .img_projects:hover {
-    border: 1px solid red;
-    color: red;
+    /* border: 1px solid red;
+    color: red; */
+    
 }
 
 button {
@@ -133,7 +134,6 @@ button a:visited {
 button a:link {
     list-style-type: none;
 } */
-
 
 /*-----------About--------*/
 
