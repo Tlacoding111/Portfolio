@@ -97,17 +97,13 @@ nav {
 
 /*-----------Projects--------*/
 
-/* .border_project {
-    border: 2px solid black;
-    max-width: auto;
-}  */
-
 .img_projects {
     width: 250px;
     height: 250px;
     /* border: 2px solid dodgerblue; */
     margin: 10px 25px;
     box-shadow: 0 15px 20px -12px black;
+    display: block;
 }
 
 .img_projects:hover {
