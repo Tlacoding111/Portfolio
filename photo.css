@@ -13,7 +13,7 @@
 
 .overlay {
     position: absolute;
-    transition: all .5s ease;
+    transition: all .7s ease;
     opacity: 0;
 }
 
@@ -32,23 +32,14 @@
     font-size: 20px;
 }
 
-.overlayLeft{
+.overlayFade{
     height: 100%;
-    width: 0;
-    top: 0;
-    left: 0;
-    background-color: black;
-}
-
-.overlayRight{
-    height: 100%;
-    width: 0;
+    width: 100%;
     top: 0;
     right: 0;
     background-color: black;
 }
 
-.container:hover .overlayLeft, 
-.container:hover .overlayRight {
+.container:hover .overlayFade {
     width: 100%;
 }
