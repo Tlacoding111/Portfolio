@@ -100,9 +100,9 @@ nav {
 .img_projects {
     width: 250px;
     height: 250px;
-    /* border: 2px solid dodgerblue; */
+    /* border: 1px solid black; */
     margin: 10px 25px;
-    box-shadow: 0 15px 20px -12px black;
+    box-shadow: 0 20px 20px -12px black;
     display: block;
 }
 
@@ -238,6 +238,7 @@ footer {
     padding-bottom: 40%;
     background: #4c4c4c;
     border: 10px solid #2c2c2c;
+    /* box-shadow: 30px 30px 20px -12px black; */
 }
 
 .slide_img{
