@@ -1,7 +1,7 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 
 .ldoor{
     width: 50%;
@@ -31,9 +31,9 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-image: url(../images/hardWork.jpg);
+    /* background-image: url(../images/hardWork.jpg);
     background-size: cover;
-    background-position-y: 20%;
+    background-position-y: 20%; */
 }
 
 /* .gate_container h1 {
@@ -57,4 +57,110 @@
     to{right:-50%;}
 }
 
-button 
+button{
+    color: red;
+    font-size: 24px;
+}
+
+.open{
+    margin-left: 15%;
+}
+
+.close {
+    float:right;
+    margin-right: 15%;
+}
+
+/*-----------Carousel---------*/
+
+/* html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+} */
+
+.carousel {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+    height: 0;
+    padding-bottom: 40%;
+    background: #4c4c4c;
+    border: 10px solid #2c2c2c;
+}
+
+.slide_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide_img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#i1, #i2, #i3, #i4, #i5, #i6 {
+    display: none;
+}
+
+
+/* .pre, .nxt {
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88,88,88,.4);
+    z-index: 99;
+    cursor: pointer;
+} */
+
+.pre{
+    left: 0;
+}
+
+.nxt{
+    right: 0;
+} 
+
+.c_nav {
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+/* .dots {
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: white;
+} */
+
+
+.slide_img {
+    z-index: -1;
+}
+
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five,
+#i6:checked ~ #six{
+    z-index: 9;
+} 
+
+/* #i1:checked ~ .c_nav #dot1, 
+#i2:checked ~ .c_nav #dot2, 
+#i3:checked ~ .c_nav #dot3 {
+    background: dodgerblue;
+}  */
