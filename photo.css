@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    /* display: inline-block; */
+}
+
+/* .image {
+    display: block;
+    width: 250px;
+    height: 250px;
+} */
+
+.overlay {
+    position: absolute;
+    transition: all .7s ease;
+    opacity: 0;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: red;
+    /* background-color: dodgerblue; */
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.overlayFade{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: black;
+}
+
+.container:hover .overlayFade {
+    width: 100%;
+}

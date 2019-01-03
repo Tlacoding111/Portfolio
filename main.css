@@ -1,5 +1,5 @@
 * {
-    background: white;
+    /* background: white; */
     box-sizing: border-box;
 }
 
@@ -75,7 +75,7 @@ header a:hover {
     color: whitesmoke;
     text-shadow: 0 2px 0 rgba(110,133,156,0.18);
     padding: 0.85em;
-    /* background: dodgerblue; */
+    background: white;
     /* border: solid 1px rgba(0, 128, 255, 0.15); */
     border-radius: 0.3em; 
 }
@@ -84,7 +84,7 @@ header a:hover {
     color: whitesmoke;
     text-shadow: 0 2px 0 rgba(110,133,156,0.18);
     padding: 0.85em;
-    /* background: dodgerblue;  */
+    background: white; 
     border: solid 1px rgba(0, 128, 255, 0.15);
     border-radius: 0.3em; 
 }
@@ -98,22 +98,19 @@ nav {
 
 /*-----------Projects--------*/
 
-/* .border_project {
-    border: 2px solid black;
-    max-width: auto;
-}  */
-
 .img_projects {
     width: 250px;
     height: 250px;
     /* border: 2px solid dodgerblue; */
     margin: 10px 25px;
     box-shadow: 0 15px 20px -12px black;
+    display: block;
 }
 
 .img_projects:hover {
     border: 1px solid red;
     color: red;
+    
 }
 
 button {
@@ -135,6 +132,35 @@ button a:link {
     list-style-type: none;
 } */
 
+/*-----------Slider--------*/
+
+.container h4,
+.container p,
+.slideButton a:visited {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.container h4 {
+    margin-top: 5px;
+}
+
+.container p {
+    font-size: 15px;
+    margin-top: -3px;
+}
+
+.slideButton {
+    width: 100%;
+    font-size: 18px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.slideButton a:link {
+    text-decoration: none;
+}
 
 /*-----------About--------*/
 
@@ -154,6 +180,10 @@ button a:link {
 .pong{
     text-align: center;
     color: black;
+}
+
+.zhang:hover{
+    transform: scale(1.2)
 }
 
 /*-----------Business Development-------*/
@@ -191,6 +221,101 @@ footer {
     padding: 10px;
     background: black;
 }
+
+
+/*-----------Carousel---------*/
+
+/* html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+} */
+
+.carousel {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+    height: 0;
+    padding-bottom: 40%;
+    background: #4c4c4c;
+    border: 10px solid #2c2c2c;
+}
+
+.slide_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide_img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#i1, #i2, #i3, #i4, #i5, #i6 {
+    display: none;
+}
+
+
+/* .pre, .nxt {
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88,88,88,.4);
+    z-index: 99;
+    cursor: pointer;
+} */
+
+.pre{
+    left: 0;
+}
+
+.nxt{
+    right: 0;
+} 
+
+.c_nav {
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+/* .dots {
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: white;
+} */
+
+
+.slide_img {
+    z-index: -1;
+}
+
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five,
+#i6:checked ~ #six{
+    z-index: 9;
+} 
+
+/* #i1:checked ~ .c_nav #dot1, 
+#i2:checked ~ .c_nav #dot2, 
+#i3:checked ~ .c_nav #dot3 {
+    background: dodgerblue;
+}  */
 
 
 /*-----------Media Queries--------*/

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel="stylesheet" type="text/css" media="screen" href="grid.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="photo.css" />
 </head>
 <body>
     <header>
@@ -20,9 +21,54 @@
 
     <main>
 
-        <div>
-            <img src="images/spinDC.png" class="topBackground">
-        </div>
+        <div class="carousel">
+
+                <input type="radio" name="images" id="i1">
+                <input type="radio" name="images" id="i2">
+                <input type="radio" name="images" id="i3">
+                <input type="radio" name="images" id="i4">
+                <input type="radio" name="images" id="i5">
+                <input type="radio" name="images" id="i6">
+        
+                <div class="slide_img" id="one">
+                    <img src="images/lionQuote.jpg">
+        
+                    <label for="i3" class="pre"></label>
+                    <label for="i2" class="nxt"></label>
+                </div>
+        
+                <div class="slide_img" id="two">
+                    <img src="images/hardWork.jpg">
+        
+                    <label for="i1" class="pre"></label>
+                    <label for="i3" class="nxt"></label>
+                </div>
+        
+                <div class="slide_img" id="three">
+                    <img src="images/direction.jpg">
+        
+                    <label for="i2" class="pre"></label>
+                    <label for="i1" class="nxt"></label>
+                </div>
+
+                <div class="slide_img" id="four">
+                    <img src="images/comfort.jpg">
+                </div>
+
+                <div class="slide_img" id="five">
+                    <img src="images/start.png">
+                </div>
+
+                <div class="slide_img" id="six">
+                    <img src="images/expect.png">
+                </div>
+                
+                <!-- <div class="c_nav">
+                    <label class="dots" id="dot1" for="i1"></label>
+                    <label class="dots" id="dot2" for="i2"></label>
+                    <label class="dots" id="dot3" for="i3"></label>
+                </div> -->
+            </div>
 
         <div>
             <h1 id="frontEnd">Front-End Development Projects</h1>
@@ -30,58 +76,122 @@
 
         <div class="grid">
                 <div class="item">
-                    <div class="border_project">
-                        <a href="https://tlacoding111.github.io/techdegreeProjectOne/" target="_blank"><img src="images/projectOne.png" class="img_projects"></a>
+                    <div class="container">
+                            <img src="images/projectOne.png" class="img_projects">
+                            <div class="overlay overlayFade">
+                                <div class="text">
+                                    <h4>Te</h4>
+                                    <p>Modify the code for a basic web page by adding graphics, custom text, and a stylish design. This is a great practice to experiment with HTML and CSS</p>
+                                    <button class="slideButton"><a href="https://tlacoding111.github.io/techdegreeProjectOne/" target="_blank">View More</a></button>
+                                </div>
+                            </div>
                     </div>
                 </div>
 
                 <div class="item">
-                        <div class="border_project">
-                            <a href="https://tlacoding111.github.io/Techdegree-ProjectTwo/" target="_blank"><img src="images/projectTwo.png" class="img_projects"></a>
+                        <div class="container">
+                                <img src="images/projectTwo.png" class="img_projects">
+                                <div class="overlay overlayFade">
+                                    <div class="text">
+                                        <h4>Techdegree Project 2</h4>
+                                        <p>Modify the code for a basic web page by adding graphics, custom text, and a stylish design. This is a great practice to experiment with HTML and CSS</p>
+                                        <button class="slideButton"><a href="https://tlacoding111.github.io/Techdegree-ProjectTwo/" target="_blank">View More</a></button>
+                                    </div>
+                                </div>
                         </div>
-                </div>
+                    </div>
 
                 <div class="item">
-                        <div class="border_project">
-                            <a href="https://tlacoding111.github.io/Techdegree-ProjectThree/" target="_blank"><img src="images/projectThree.png" class="img_projects"></a>
+                        <div class="container">
+                                <img src="images/projectThree.png" class="img_projects">
+                                <div class="overlay overlayFade">
+                                    <div class="text">
+                                        <h4>Techdegree Project 3</h4>
+                                        <p>Modify the code for a basic web page by adding graphics, custom text, and a stylish design. This is a great practice to experiment with HTML and CSS</p>
+                                        <button class="slideButton"><a href="https://tlacoding111.github.io/Techdegree-ProjectThree/" target="_blank">View More</a></button>
+                                    </div>
+                                </div>
                         </div>
-                </div>
+                    </div>
 
                 <div class="item">
-                        <div class="border_project">
-                            <a href="https://tlacoding111.github.io/Techdegree-ProjectFive/" target="_blank"><img src="images/testing.png" class="img_projects"></a>
+                        <div class="container">
+                                <img src="images/testing.png" class="img_projects">
+                                <div class="overlay overlayFade">
+                                    <div class="text">
+                                        <h4>Techdegree Project 3</h4>
+                                        <p>Modify the code for a basic web page by adding graphics, custom text, and a stylish design. This is a great practice to experiment with HTML and CSS</p>
+                                        <button class="slideButton"><a href="https://tlacoding111.github.io/Techdegree-ProjectFive/" target="_blank">View More</a></button>
+                                    </div>
+                                </div>
                         </div>
-                </div>
+                    </div>
+
 
                 <div class="item">
-                        <div class="border_project">
-                            <a href="chart/chart.html" target="_blank"><img src="images/chart.png" class="img_projects"></a>
+                        <div class="container">
+                                <img src="images/chart.png" class="img_projects">
+                                <div class="overlay overlayFade">
+                                    <div class="text">
+                                        <h4>Techdegree Project 3</h4>
+                                        <p>Modify the code for a basic web page by adding graphics, custom text, and a stylish design. This is a great practice to experiment with HTML and CSS</p>
+                                        <button class="slideButton"><a href="chart/chart.html" target="_blank">View More</a></button>
+                                    </div>
+                                </div>
                         </div>
-                </div>
+                    </div>
+
+                <div class="item">
+                        <div class="container">
+                                <img src="images/list.png" class="img_projects">
+                                <div class="overlay overlayFade">
+                                    <div class="text">
+                                        <h4>Techdegree Project 3</h4>
+                                        <p>Modify the code for a basic web page by adding graphics, custom text, and a stylish design. This is a great practice to experiment with HTML and CSS</p>
+                                        <button class="slideButton"><a href="https://tlacoding111.github.io/javaScriptProjectOne/" target="_blank">View More</a></button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                <div class="item">
+                        <div class="container">
+                                <img src="images/modalPopup.png" class="img_projects">
+                                <div class="overlay overlayFade">
+                                    <div class="text">
+                                        <h4>Techdegree Project 3</h4>
+                                        <p>Modify the code for a basic web page by adding graphics, custom text, and a stylish design. This is a great practice to experiment with HTML and CSS</p>
+                                        <button class="slideButton"><a href="https://tlacoding111.github.io/simpleModalPopup/" target="_blank">View More</a></button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                <div class="item">
+                        <div class="container">
+                                <img src="images/lion.jpg" class="img_projects">
+                                <div class="overlay overlayFade">
+                                    <div class="text">
+                                        <h4>Techdegree Project 3</h4>
+                                        <p>Modify the code for a basic web page by adding graphics, custom text, and a stylish design. This is a great practice to experiment with HTML and CSS</p>
+                                        <button class="slideButton"><a href="https://codepen.io/tlacoding111/details/GPQERy" target="_blank">View More</a></button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
 
                     <div class="item">
-                        <div class="border_project">
-                            <a href="https://tlacoding111.github.io/javaScriptProjectOne/" target="_blank"><img src="images/list.png" class="img_projects"></a>
+                            <div class="container">
+                                    <img src="images/wia.png" class="img_projects">
+                                    <div class="overlay overlayFade">
+                                        <div class="text">
+                                            <h4>Techdegree Project 3</h4>
+                                            <p>Modify the code for a basic web page by adding graphics, custom text, and a stylish design. This is a great practice to experiment with HTML and CSS</p>
+                                            <button class="slideButton"><a href="https://tla111.wixsite.com/phoneawayplease" target="_blank">View More</a></button>
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
-                </div>
-
-                    <div class="item">
-                        <div class="border_project">
-                            <a href="https://tlacoding111.github.io/simpleModalPopup/" target="_blank"><img src="images/modalPopup.png" class="img_projects"></a>
-                        </div>
-                </div>
-
-                <div class="item">
-                    <div class="border_project">
-                        <img src="images/Screen Shot 2018-12-18 at 9.12.48 AM.png" class="img_projects">
-                    </div>
-             </div>
-
-             <div class="item">
-                    <div class="border_project">
-                        <a href="https://tla111.wixsite.com/phoneawayplease" target="_blank"><img src="images/wia.png" class="img_projects"></a>
-                    </div>
-            </div>
         </div>
         </main>
 
@@ -125,11 +235,11 @@
             I am an independent trainer. This means I can come to you. I know many facilities where we could train or I could come to your home. However, I charge an extra $10.00 for in house coaching.
             My rating is 1850 (above average). I strongly believe I am the right fit for new players, beginners, or those with some experience. If you are an intermediate player, an advance player, or if I am not right for you, then I recommend you to look at table tennis centers/clubs in your area. 
             </p>
-        </div>
+    </div>
     </div>
 
     <div class="itemTwo">
-        <img src="images/zhangJike.jpg" width="500px" height="250px">
+        <img src="images/zhangJike.jpg" width="500px" height="250px" class="zhang">
         <div class="about pong">
             <h3>Achievements:</h3>
             <p>2011 US Nationals Standing Finalist</p>
@@ -156,7 +266,7 @@
         <div class="gridTwo">
 
             <div class="itemTwo">
-                <img src="images/Article1A.png" width="500px" height="500px">
+                <img src="images/Article1A.png" width="500px" height="500px" class="article">
             </div>
 
             <div class="itemTwo">
@@ -175,7 +285,7 @@
             </div>
 
             <div class="itemTwo">
-                <img src="images/Article1B.png" width="500px" height="500px">
+                <img src="images/Article1B.png" width="500px" height="500px" class="article">
             </div>
 
         </div>
@@ -192,4 +302,5 @@
         <h1>Copyright 2018</h1>
     </footer> -->
 </body>
+    <script src="portfolio.js"></script>
 </html>
