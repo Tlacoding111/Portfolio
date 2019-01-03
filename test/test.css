@@ -61,16 +61,32 @@
 button{
     color: red;
     font-size: 24px;
-    border: 2px solid white;
+    border: none;
+    border-bottom: 2px solid white;
 }
 
 .open{
     margin-left: 15%;
+    margin-top: .2%;
 }
 
 .close {
     float:right;
+    margin-top: .5%;
     margin-right: 15%;
+}
+
+.open:hover,
+.close:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.prepared {
+    margin-left: 5%;
+    color: red;
+    border-bottom: 2px solid white;
+    display: inline-block;
 }
 
 /*-----------Carousel---------*/
@@ -82,11 +98,11 @@ button{
 } */
 
 .carousel {
-    margin: 5% 10%;
+    margin: 5% 32%;
     /* position: relative; */
     position: fixed;
-    width: 80%;
-    height: 0%;
+    width: 35%;
+    height: 0;
     padding-bottom: 40%;
     background: #4c4c4c;
     border: 10px solid red;
