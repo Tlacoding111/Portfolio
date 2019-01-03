@@ -1,25 +1,51 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
 .ldoor{
     width: 50%;
-    background-color: red;
+    background-image: url(../images/lion.jpg);
+    background-size: cover;
+    transform: rotateY(180deg);
     height:100%;
     position: absolute;
     left: 0;
-    animation: ldoor 3s infinite;
+    /* animation: ldoor 3s infinite;
+    animation-delay: 1s; */
 }
 
 .rdoor{
     width: 50%;
-    background-color: blue;
+    background-image: url(../images/lion.jpg);
+    background-size: cover;
     height:100%;
     position: absolute;
     right: 0;
-    animation: rdoor 3s infinite;
+    /* animation: rdoor 3s infinite;
+    animation-delay: 1s; */
 }
+
+.gate_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(../images/hardWork.jpg);
+    background-size: cover;
+    background-position-y: 20%;
+}
+
+/* .gate_container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial Black;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-align: center;
+} */
 
 @keyframes ldoor{
     from{left:0;}
@@ -30,3 +56,5 @@
     from{right:0;}
     to{right:-50%;}
 }
+
+button 
