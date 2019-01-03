@@ -37,11 +37,18 @@
     width: 0;
     top: 0;
     left: 0;
-    /* background-image: url(images/lion.jpg);
-    background-size: cover; */
     background-color: black;
 }
 
-.container:hover .overlayLeft {
+.overlayRight{
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    background-color: black;
+}
+
+.container:hover .overlayLeft, 
+.container:hover .overlayRight {
     width: 100%;
 }
