@@ -61,7 +61,7 @@
 button{
     color: red;
     font-size: 24px;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 .open{
@@ -84,7 +84,7 @@ button{
 .carousel {
     margin: 5% 10%;
     /* position: relative; */
-    position: absolute;
+    position: fixed;
     width: 80%;
     height: 0%;
     padding-bottom: 40%;
