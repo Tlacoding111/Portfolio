@@ -98,10 +98,10 @@ button{
 } */
 
 .carousel {
-    margin: 5% 32%;
+    margin: 5% 30%;
     /* position: relative; */
     position: fixed;
-    width: 35%;
+    width: 38%;
     height: 0;
     padding-bottom: 40%;
     background: #4c4c4c;
