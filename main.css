@@ -248,7 +248,7 @@ footer {
 }
 
 
-#i1, #i2, #i3 {
+#i1, #i2, #i3, #i4, #i5 {
     display: none;
 }
 
@@ -280,7 +280,7 @@ footer {
     z-index: 99;
 }
 
-.dots {
+/* .dots {
     top: -5px;
     width: 18px;
     height: 18px;
@@ -289,7 +289,7 @@ footer {
     border-radius: 50%;
     display: inline-block;
     background: white;
-}
+} */
 
 
 .slide_img {
@@ -299,15 +299,17 @@ footer {
 
 #i1:checked ~ #one,
 #i2:checked ~ #two,
-#i3:checked ~ #three {
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five  {
     z-index: 9;
-}
+} 
 
-#i1:checked ~ .c_nav #dot1, 
+/* #i1:checked ~ .c_nav #dot1, 
 #i2:checked ~ .c_nav #dot2, 
 #i3:checked ~ .c_nav #dot3 {
     background: dodgerblue;
-}
+}  */
 
 /*-----------Media Queries--------*/
 
