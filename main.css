@@ -133,11 +133,21 @@ button a:link {
 
 /*-----------Slider--------*/
 
-.container h3,
+.container h4,
 .container p,
 .slideButton a:visited {
     text-align: center;
     color: white;
+    margin-bottom: 10px;
+}
+
+.container h4 {
+    margin-top: 5px;
+}
+
+.container p {
+    font-size: 15px;
+    margin-top: -3px;
 }
 
 .slideButton {
