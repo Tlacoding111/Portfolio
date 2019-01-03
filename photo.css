@@ -13,7 +13,7 @@
 
 .overlay {
     position: absolute;
-    transition: all .1s ease;
+    transition: all .5s ease;
     opacity: 0;
 }
 
