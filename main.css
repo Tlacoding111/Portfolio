@@ -137,16 +137,22 @@ button a:link {
 .container p,
 .slideButton a:visited {
     text-align: center;
-    color: white;
     margin-bottom: 10px;
 }
 
+.container p,
+.slideButton a:visited {
+    color: white;
+}
+
 .container h4 {
+    color: dodgerblue;
     margin-top: 5px;
+    font-size: 18px;
 }
 
 .container p {
-    font-size: 15px;
+    font-size: 16px;
     margin-top: -3px;
 }
 
