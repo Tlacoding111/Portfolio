@@ -8,3 +8,12 @@ function Move(){
 }
 setInterval(Move,3000); //change img in 3 sec
 }
+
+document.querySelector(".slideButton").addEventListener("click", () => 
+{
+    document.querySelector(".bg-modal").style.display = "flex";
+});
+
+document.querySelector(".close").addEventListener("click", () => {
+    document.querySelector(".bg-modal").style.display = "none";
+});
