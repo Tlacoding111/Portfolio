@@ -83,7 +83,8 @@
     font-size: 25px;
     color: black;
     background: white;
-    font-family: Arial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 40px;
 }
 
 .modal-content h1,

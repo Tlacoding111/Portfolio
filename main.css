@@ -224,6 +224,10 @@ button a:link {
     color: black;
 }
 
+.about p{
+    line-height: 30px;
+}
+
 .blue {
     color: dodgerblue;
 }
