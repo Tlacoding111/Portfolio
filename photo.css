@@ -47,7 +47,13 @@
 
 .bg-modal,
 .bg-modal2,
-.bg-modal3 {
+.bg-modal3,
+.bg-modal4,
+.bg-modal5,
+.bg-modal6,
+.bg-modal7,
+.bg-modal8,
+.bg-modal9{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -100,7 +106,13 @@
 
 .close,
 .closeTwo,
-.closeThree {
+.closeThree,
+.closeFour,
+.closeFive,
+.closeSix,
+.closeSeven,
+.closeEight,
+.closeNine {
     position: absolute;
     top: 0;
     right: 14px;
