@@ -68,3 +68,33 @@ document.querySelector(".sixthModalButton").addEventListener("click", () =>
 document.querySelector(".closeSix").addEventListener("click", () => {
     document.querySelector(".bg-modal6").style.display = "none";
 });
+
+//Modal 7
+document.querySelector(".seventhModalButton").addEventListener("click", () => 
+{
+    document.querySelector(".bg-modal7").style.display = "flex";
+});
+
+document.querySelector(".closeSeven").addEventListener("click", () => {
+    document.querySelector(".bg-modal7").style.display = "none";
+});
+
+//Modal 8
+document.querySelector(".eigthModalButton").addEventListener("click", () => 
+{
+    document.querySelector(".bg-modal8").style.display = "flex";
+});
+
+document.querySelector(".closeEight").addEventListener("click", () => {
+    document.querySelector(".bg-modal8").style.display = "none";
+});
+
+//Modal 9
+document.querySelector(".ninthModalButton").addEventListener("click", () => 
+{
+    document.querySelector(".bg-modal9").style.display = "flex";
+});
+
+document.querySelector(".closeNine").addEventListener("click", () => {
+    document.querySelector(".bg-modal9").style.display = "none";
+});
