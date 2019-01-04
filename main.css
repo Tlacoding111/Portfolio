@@ -43,16 +43,8 @@ header {
 iframe {
     margin: auto;
     width: 50%;
-    /* border: 3px solid whitesmoke; */
-    padding: 5px;
+    border: 1px solid black;
     display: block;
-}
-
-.board {
-    width: 550px;
-    height: 450px;
-    margin-left: 400px;
-    margin-top: 20px;
 }
 
 .backgroundSolid {
@@ -61,12 +53,16 @@ iframe {
 
 #tableTennis,
 #virtual {
-    margin-bottom: -3px;
+    margin-bottom: 0px;
     border-bottom: 7px dashed white;
 }
 
-#lesson,
-#associate {
+#lesson {
+    margin-top: 2px;
+    border-top: 7px dashed white;
+}
+
+#associate{
     margin-top: -5px;
     border-top: 7px dashed white;
 }
@@ -254,6 +250,17 @@ button a:link {
     transform: scale(1.2)
 }
 
+/*-----------Scoreboard-------*/
+
+.board {
+    width: 550px;
+    height: 450px;
+    margin-left: 400px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid black;
+}
+
 /*-----------Business Development-------*/
 
 .business {
@@ -269,6 +276,10 @@ button a:link {
 .business p,
 .business h4 {
     margin-bottom: -2px;
+}
+
+.article:hover {
+    transform: scale(1.2);
 }
 
 /*-----------Contact--------*/
