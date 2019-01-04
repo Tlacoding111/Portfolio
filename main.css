@@ -135,9 +135,27 @@ button a:link {
 
 .container h4,
 .container p,
-.slideButton a:visited {
+.slideButton a:visited,
+.icons {
     text-align: center;
     margin-bottom: 10px;
+}
+
+
+.icons {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.js {
+    width: 65px;
+    height: 65px;
+    margin-left: 7px;
+}
+
+.wix_icon {
+    margin-left: 50px;
 }
 
 .container p,
