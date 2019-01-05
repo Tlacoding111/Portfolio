@@ -20,6 +20,10 @@ header {
     border-bottom: 5px dashed white;
 }
 
+header h3 {
+    color: white;
+}
+
 .description {
     color: red;
 }
