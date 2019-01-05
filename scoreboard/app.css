@@ -12,7 +12,7 @@ header {
   text-align: center;
   display: flex;
   align-items: center;
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
   border-bottom: solid 2px dodgerblue;
 }
 

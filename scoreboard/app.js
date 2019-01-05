@@ -58,7 +58,7 @@ class App extends React.Component {
                 id: 1
               },
               {
-                name: "Kate",
+                name: "wha",
                 id: 2
               },
               {
