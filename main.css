@@ -265,10 +265,11 @@ button a:link {
 .board {
     width: 575px;
     height: 450px;
-    margin-left: 400px;
+    margin-left: 30%;
     margin-top: 1px;
     margin-bottom: 1px;
-    border: 1px solid black;
+    /* margin: 0 30%; */
+    /* border: 5px solid black; */
 }
 
 /*-----------Business Development-------*/
