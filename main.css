@@ -224,13 +224,14 @@ button a:link {
 .business h4,
 .business h5,
 .business p {
-    font-size: 18px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
 .about p{
     line-height: 30px;
+    font-size: 22px;
 }
 
 .blue {
@@ -253,6 +254,10 @@ button a:link {
     0 5px 10px rgba(0,0,0,.25),
     0 10px 10px rgba(0,0,0,.2),
     0 20px 20px rgba(0,0,0,.15);
+}
+
+.zhang {
+    padding-left: 70px;
 }
 
 .zhang:hover{
