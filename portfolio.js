@@ -1,3 +1,4 @@
+//Header Motivation Slides
 onload  = start;
 
 function start(){	
@@ -9,7 +10,7 @@ function Move(){
 setInterval(Move,3000); //change img in 3 sec
 }
 
-//Modal 1
+// Modal 1
 document.querySelector(".slideButton").addEventListener("click", () => 
 {
     document.querySelector(".bg-modal").style.display = "flex";
